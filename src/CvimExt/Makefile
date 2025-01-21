@@ -3,7 +3,7 @@
 #   DEBUG=yes		Build debug version (for VC7 and maybe later)
 #
 
-TARGETOS=BOTH
+TARGETOS=BOTh
 APPVER=4.0
 
 !if "$(DEBUG)" != "yes"
