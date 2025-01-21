@@ -1,0 +1,20 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\CLSID\{51EEE242-AD87-11d3-9C1E-0090278BBD99}]
+   @="cVim Shell Extension"
+[HKEY_CLASSES_ROOT\CLSID\{51EEE242-AD87-11d3-9C1E-0090278BBD99}\InProcServer32]
+   @="cvimext.dll"
+   "ThreadingModel"="Apartment"
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\gvim]
+   @="{51EEE242-AD87-11d3-9C1E-0090278BBD99}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved]
+   "{51EEE242-AD87-11d3-9C1E-0090278BBD99}"="cVim Shell Extension"
+
+[HKEY_LOCAL_MACHINE\Software\cVim\Cvim]
+   "path"="cvim.exe"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\cVim 1.0a]
+   "DisplayName"="cVim 1.0a: Edit with cVim popup menu entry"
+   "UninstallString"="uninstall.exe"
