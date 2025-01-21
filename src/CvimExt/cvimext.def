@@ -1,0 +1,8 @@
+;cvimdef.def : Declares the module parameters for the DLL.
+
+LIBRARY      cvimext
+DESCRIPTION  'cVim Shell Extension'
+
+EXPORTS
+    DllCanUnloadNow private
+    DllGetClassObject private
